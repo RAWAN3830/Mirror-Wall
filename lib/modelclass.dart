@@ -1,11 +1,10 @@
 class ModelClass{
 
   final String? siteName;
-  final String? url;
+  final Uri? url;
 
   ModelClass({
     required this.siteName,
     required this.url });
 }
 
-List<ModelClass> model = [];
